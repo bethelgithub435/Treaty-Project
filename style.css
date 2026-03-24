@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom, rgb(24, 160, 172), rgb(65, 218, 80));
+  background: linear-gradient(to bottom, rgb(207, 115, 17), rgb(192, 224, 13));
 }
 
 header {
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #51e66a;
+  color: #75cb19;
 }
 
 main {
