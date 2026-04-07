@@ -1,21 +1,32 @@
+/* The background of the webpage */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: linear-gradient(to bottom, rgb(207, 115, 17), rgb(192, 224, 13));
 }
 
+
 header {
   background-color: #2f6f3e;
   color: white;
   text-align: center;
   padding: 20px;
+  font-family: "Georgia", serif;
+}
+
+header h1 {
+  font-size: 35px;
+}
+
+header h2 {
+  font-size: 18px;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 10px;
-  background: #333;
+  background: #a8a504;
   text-align: center;
 }
 
@@ -38,6 +49,16 @@ main {
   padding: 30px;
 }
 
+main, nav {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+}
+
+#hero h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .content-box {
   background: rgb(255, 255, 255);
   padding: 20px;
@@ -47,13 +68,17 @@ main {
   font-size: 18px;
 }
 
-.highlight {
+.content-box h3 {
+  font-size: 24px;
+}
+
+#highlight {
   color: #2f6f3e;
   font-weight: bold;
 }
 
 footer {
-  background: #222;
+  background: #2f6f3e;
   color: white;
   text-align: center;
   padding: 15px;
