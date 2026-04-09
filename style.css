@@ -46,6 +46,27 @@ nav a:hover {
   color: #75cb19;
 }
 
+.navbutton {
+  /* 1. The Rounded Corners */
+  border-radius: 8px;
+
+  /* 2. Layout & Spacing */
+  display: inline-block;
+  padding: 10px 20px; /* 10px top/bottom, 20px left/right */
+  
+  /* 3. Styling */
+  background-color: #3498db;
+  color: white;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+/* Hover effect */
+.navbutton:hover {
+  background-color: #2980b9;
+  transform: translateY(-6px); /* Slight lift effect */
+}
+
 main {
   padding: 30px;
 }
@@ -88,4 +109,5 @@ footer {
   color: #121212;
   text-align: center;
   padding: 15px;
+  border-radius: 8px;
 }
