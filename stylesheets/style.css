@@ -1,13 +1,24 @@
+/* ==================================================
+  COLOUR SCHEME JUSTIFICATION
+  Colour Family: Blue, Red, and Yellow/Beige.
+  Justification: I chose these colours to represent the natural elements 
+  of the Treaty 1 land (blue for the Red River and Lake Winnipeg) 
+  and the warmth/history of the negotiation (yellow/beige). 
+  The dark red in the navigation provides a strong contrast to 
+  ensure professional visibility. 
+  ==================================================
+*/
+
 /* The background of the webpage */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  /* Accessibility: Light theme chosen for readability */
   background: linear-gradient(to bottom, #c3edfa 70%, #2F80ED 100%);
+  line-height: 1.6; /* Accessibility: Improved spacing for readability  */
 }
 
-
 header {
-  /* background-color: #2f6f3e; */
   background-color: #f9f2bd;
   color: #121212;
   text-align: center;
@@ -16,7 +27,7 @@ header {
 }
 
 header h1 {
-  font-size: 35px;
+  font-size: 35px; /* Typography: Clear hierarchy */
 }
 
 header h2 {
@@ -27,7 +38,7 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 10px;
-  background: #690b1a;
+  background: #690b1a; /* Primary color choice */
   text-align: center;
 }
 
@@ -43,37 +54,34 @@ nav a {
 }
 
 nav a:hover {
-  color: #75cb19;
+  color: #75cb19; /* Secondary/Accent color */
 }
 
 .navbutton {
-  /* 1. The Rounded Corners */
   border-radius: 8px;
-
-  /* 2. Layout & Spacing */
   display: inline-block;
-  padding: 10px 20px; /* 10px top/bottom, 20px left/right */
-  
-  /* 3. Styling */
+  padding: 10px 20px;
   background-color: #3498db;
   color: white;
   transition: all 0.3s ease;
   border: none;
 }
 
-/* Hover effect */
 .navbutton:hover {
   background-color: #2980b9;
-  transform: translateY(-6px); /* Slight lift effect */
+  transform: translateY(-6px);
 }
 
 main {
   padding: 30px;
+  /* Accessibility: Centering content for better focus */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 main, nav {
   font-family: "Georgia", serif;
-  font-size: 18px;
+  font-size: 18px; /* Typography: Appropriate font size */
 }
 
 #hero {
@@ -81,27 +89,24 @@ main, nav {
   margin-bottom: 50px;
 }
 
-#hero h3 {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+.highlight {
+  color: #2f6f3e;
+  font-weight: bold;
 }
 
 .content-box {
-  background: rgb(255, 255, 255);
-  padding: 20px;
-  margin-bottom: 20px;
+  background: rgb(255, 255, 255); /* Neutral colour usage */
+  padding: 25px; /* Spacing for readability */
+  margin-bottom: 25px;
   border-radius: 8px;
   font-family: "Georgia", serif;
-  font-size: 18px;
 }
 
-.content-box h3 {
-  font-size: 24px;
-}
-
-#highlight {
-  color: #2f6f3e;
-  font-weight: bold;
+/* Hierarchy for sub-headings */
+.content-box h2 {
+  font-size: 26px;
+  color: #121212;
+  margin-top: 0;
 }
 
 footer {
@@ -110,4 +115,5 @@ footer {
   text-align: center;
   padding: 15px;
   border-radius: 8px;
+  margin: 20px;
 }
