@@ -19,37 +19,13 @@
   </head>
 
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <script>
-      // Get the button
-      let mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
+    <!-- This is the header -->
     <header>
       <h1>Treaty 1 Communities</h1>
+      <img src="images/treaty1flag.png" alt="Treaty 1 Flag" />
+      <h2>Discover the communities treaty 1 has to offer.</h2>
     </header>
-
+    <!-- This is the navigation bar -->
     <nav class="navbar">
       <ul>
         <li><a href="index.html" class="navbutton">Home</a></li>
@@ -57,7 +33,17 @@
         <li><a href="communities.html" class="navbutton">Communities</a></li>
       </ul>
     </nav>
-
+    <section id="hero">
+      <h2>
+        The Communities of <span class="highlight">Treaty 1 Territory</span>
+      </h2>
+      <p>
+        Treaty 1 is home to several First Nations communities each with its own
+        unique culture. Learn about the communities that are part of Treaty 1
+        and their contributions to the region.
+      </p>
+    </section>
+    <!-- This is the main content area -->
     <main>
       <section>
         <div class="content-box">
@@ -193,7 +179,7 @@
         </div>
       </section>
     </main>
-
+    <!-- This is the footer -->
     <footer>
       <p>Educational website about Treaty 1 | Student Project</p>
     </footer>
